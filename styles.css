@@ -1,0 +1,120 @@
+form {
+    border: 1px solid rgb(11, 149, 212);
+    background-color: rgb(19, 120, 214);
+    display: inline-flex;
+    max-width: 530px;
+}
+.userdata {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.row1,
+.row2,
+.row3 {
+    flex-basis: 100%;
+    height: 70px;
+  }
+  input::placeholder {
+    text-indent: 10px;
+    }
+.row1 input:last-child {
+    margin-left: 10px;
+  }
+.row2 input:last-child {
+    margin-left: 10px;
+  }
+.row3 input:last-child {
+    margin-left: 10px;
+  }      
+input[type="text"] {
+    height: 50px;
+    width: 200px;
+}
+input[type="password"] {
+    height: 50px;
+    width: 200px;
+}
+.buyer, .seller {
+    margin-right: 5px;
+}
+.seller {
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.buyer {
+    border: 1px solid white;
+}
+h1, h2 {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h1 {text-transform: uppercase;}
+h2 {font-size: 1em;}
+.allform {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.buyer input[type="radio"],
+.buyer p {
+  display: inline-flex;
+  vertical-align: middle;
+  /* margin-top: 1px; */
+}
+.seller input[type="radio"],
+.seller p {
+  display: inline-flex;
+  vertical-align: middle;
+}
+.join-information {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.join-information p {
+    margin-top: 1px;
+}
+.buyer p:first-of-type {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.seller p:first-of-type {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.buyer p:last-of-type {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.seller p:last-of-type {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.promo {
+  display: inline-flex;
+  align-items: center;
+}
+.promo p {
+    margin-top: 40px;
+}
+.button {
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+    margin-top: auto;
+  margin-bottom: 0px;
+}
+button {
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
